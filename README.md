@@ -32,6 +32,3 @@ A collection of projects completed during my Computer Science degree at Portland
 - Archive file utility
 - Malware reverse engineering labs
 
-## Notes
-
-Some large datasets, generated files, and virtual environments are excluded from this repository to keep it lightweight.
