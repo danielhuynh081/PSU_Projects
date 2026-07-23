@@ -6,7 +6,7 @@ A collection of projects completed during my Computer Science degree at Portland
 
 | Course | Description |
 |---------|-------------|
-| CS201 | Computer Systems Programming (C, |
+| CS201 | Computer Systems Programming |
 | CS302 | Data Structures and Algorithms (Linked Lists, Binary Search Trees, Recursion, Vectors, Inheritence, Dynamic Casting, OOP) |
 | CS333 | Operating Systems (C, Unix, multithreading, processes, signals) |
 | CS350 | Algorithms and Complexity (Sorting, Program Optimization) |
