@@ -1,0 +1,61 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdbool.h>
+#include <unistd.h>
+// Daniel Huynh, Jesse Chaney CS201, Jan 17 2023
+// This program reads float or double values and displays them in different formats.
+
+int main(int argc, char *argv[]) {
+    // Set default datatype as float
+    bool isDouble = false;
+
+    float f;
+    double d;
+    char buf[100];
+    int opt;
+    // Parse command line options
+    while ((opt = getopt(argc, argv, "f : d : H")) != -1) {
+        switch (opt) {
+            case 'd':
+                isDouble = true;
+                break;
+
+            case 'f':
+                isDouble = false;
+                break;
+
+            case 'H':
+                printf("Usage: ./float-2-hex [OPTION ...]\n");
+                printf(" -f   convert the input into floats for hex output (this is the default)\n");
+                printf(" -d   convert the input into doubles for hex output\n");
+                printf(" -H   display this help message and exit\n");
+                break;
+
+            case '?':
+                break;
+        }
+    }
+
+    while (fgets(buf, sizeof(buf), stdin) != NULL) {
+        // Remove trailing newline character
+        buf[strlen(buf) - 1] = '\0';
+
+        // Convert input to float or double
+        if (isDouble) {
+            if (sscanf(buf, "%lf", &d) != 1) {
+                fprintf(stderr, "Failed to scan value from input <%s>\n", buf);
+                exit(EXIT_FAILURE);
+            }
+            printf("%-40s\t%.11e\t%.11g\t%#.16g\n", buf, d, d, d);
+        } else {
+            if (sscanf(buf, "%f", &f) != 1) {
+                fprintf(stderr, "Failed to scan value from input <%s>\n", buf);
+                exit(EXIT_FAILURE);
+            }
+            printf("%-40s\t%.11e\t%.11g\t%#.11g\n", buf, f, f, f);
+        }
+    }
+
+    return 0;
+}

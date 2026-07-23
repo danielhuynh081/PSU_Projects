@@ -1,0 +1,4 @@
+	DES: 4 NT: 7 MD5: 5 SHA256: 10 SHA512: 9 YESCRYPT: 5 GOST_YESCRYPT: 3 BCRYPT: 7 total: 50 failed: 3
+Thread 0 processed 17 words
+Thread 1 processed 17 words
+Thread 2 processed 16 words

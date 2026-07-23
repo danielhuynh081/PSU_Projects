@@ -1,0 +1,14 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore common dev environment files
+*.pyc
+__pycache__/
+.env
+.idea/
+.vscode/
+*.log
+
+# Ignore user's home config folders
+../../.*
+

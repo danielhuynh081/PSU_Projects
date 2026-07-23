@@ -1,0 +1,25 @@
+Thread 0 processed 34 words and failed 5 words in 65.30 seconds
+Thread 1 processed 34 words and failed 2 words in 46.68 seconds
+Thread 2 processed 34 words and failed 5 words in 52.00 seconds
+Thread 3 processed 34 words and failed 3 words in 81.83 seconds
+Thread 4 processed 34 words and failed 2 words in 51.15 seconds
+Thread 5 processed 33 words and failed 4 words in 80.51 seconds
+Thread 6 processed 33 words and failed 4 words in 92.50 seconds
+Thread 7 processed 33 words and failed 2 words in 65.31 seconds
+Thread 8 processed 33 words and failed 2 words in 67.04 seconds
+Thread 9 processed 33 words and failed 3 words in 44.21 seconds
+Thread 10 processed 33 words and failed 2 words in 49.04 seconds
+Thread 11 processed 33 words and failed 4 words in 78.89 seconds
+Thread 12 processed 33 words and failed 3 words in 51.23 seconds
+Thread 13 processed 33 words and failed 3 words in 55.04 seconds
+Thread 14 processed 33 words and failed 3 words in 51.69 seconds
+Total DES: 1
+Total NT: 1
+Total MD5: 1
+Total SHA256: 0
+Total SHA512: 2
+Total YESCRYPT: 3
+Total GOST_YESCRYPT: 0
+Total BCRYPT: 2
+Total: 10
+Failed: 1

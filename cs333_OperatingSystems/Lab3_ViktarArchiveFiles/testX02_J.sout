@@ -1,0 +1,42 @@
+	file name: random-24M.bin
+		mode:  -rwxr-xr-x
+		user:  dahuynh
+		group: them
+		size:  24000000
+		mtime: 1980-12-05 03:03:06.000000000 -0800
+		atime: 1969-12-31 16:00:00.000000000 -0800
+	file name: random-2M.bin
+		mode:  -rwx--xr-x
+		user:  dahuynh
+		group: them
+		size:  2097152
+		mtime: 1980-12-05 03:03:06.000000000 -0800
+		atime: 1969-12-31 16:00:00.000000000 -0800
+	file name: random-333.bin
+		mode:  -rwxrwxr-x
+		user:  dahuynh
+		group: them
+		size:  8
+		mtime: 1980-12-05 03:03:06.000000000 -0800
+		atime: 1969-12-31 16:00:00.000000000 -0800
+	file name: zeroes-1M.bin
+		mode:  -rw-r-----
+		user:  dahuynh
+		group: them
+		size:  1048576
+		mtime: 2012-02-03 04:05:06.000000000 -0800
+		atime: 1969-12-31 16:00:00.000000000 -0800
+	file name: zeroes-4M.bin
+		mode:  -rwx---r-x
+		user:  dahuynh
+		group: them
+		size:  4194304
+		mtime: 1957-01-01 15:32:57.000000000 -0800
+		atime: 1969-12-31 16:00:00.000000000 -0800
+	file name: zero-sized-file.bin
+		mode:  -rwxr-xr-x
+		user:  dahuynh
+		group: them
+		size:  0
+		mtime: 2012-02-03 04:05:06.000000000 -0800
+		atime: 1969-12-31 16:00:00.000000000 -0800

@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <string.h>
+
+#define USERDEF "AAAAAA"
+
+int main() {
+
+    "CS410 Malware Reverse Engineering Spring 2025 Jesse Chaney";
+    "Daniel Huynh";
+    "Final CTF Project";
+
+    char input[100];
+    printf("Find the password using strings: ");
+    scanf("%s", input);
+    if (strcmp(input, USERDEF) == 0) {
+        printf("Good job.\n");
+    } else {
+        printf("Try again.\n");
+    }
+
+    return 0;
+}

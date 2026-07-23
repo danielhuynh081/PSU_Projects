@@ -1,0 +1,31 @@
+Verbose mode enabled.
+Thread 0 processed 1 words and failed 0 words in 0.06 seconds
+Thread 1 processed 1 words and failed 0 words in 0.13 seconds
+Thread 2 processed 1 words and failed 1 words in 0.05 seconds
+Thread 3 processed 1 words and failed 0 words in 0.06 seconds
+Thread 4 processed 1 words and failed 0 words in 0.00 seconds
+Thread 5 processed 1 words and failed 0 words in 0.24 seconds
+Thread 6 processed 1 words and failed 0 words in 0.00 seconds
+Thread 7 processed 1 words and failed 0 words in 0.03 seconds
+Thread 8 processed 1 words and failed 0 words in 0.00 seconds
+Thread 9 processed 1 words and failed 0 words in 0.01 seconds
+Thread 10 processed 0 words and failed 0 words in 0.00 seconds
+Thread 11 processed 0 words and failed 0 words in 0.00 seconds
+Thread 12 processed 0 words and failed 0 words in 0.00 seconds
+Thread 13 processed 0 words and failed 0 words in 0.00 seconds
+Thread 14 processed 0 words and failed 0 words in 0.00 seconds
+Thread 15 processed 0 words and failed 0 words in 0.00 seconds
+Thread 16 processed 0 words and failed 0 words in 0.00 seconds
+Thread 17 processed 0 words and failed 0 words in 0.00 seconds
+Thread 18 processed 0 words and failed 0 words in 0.00 seconds
+Thread 19 processed 0 words and failed 0 words in 0.00 seconds
+Total DES: 1
+Total NT: 1
+Total MD5: 1
+Total SHA256: 0
+Total SHA512: 2
+Total YESCRYPT: 3
+Total GOST_YESCRYPT: 0
+Total BCRYPT: 2
+total: 10
+failed: 1

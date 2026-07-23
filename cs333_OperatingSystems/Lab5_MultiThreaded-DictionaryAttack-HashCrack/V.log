@@ -1,0 +1,27 @@
+==2264442== Memcheck, a memory error detector
+==2264442== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==2264442== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==2264442== Command: ./thread_hash -i /disk/scratch/rchaney/Classes/cs333/Labs/Lab5/passwords50.txt -d /disk/scratch/rchaney/Classes/cs333/Labs/Lab5/plain50.txt -t 3 -o cracked_T3_W50.out
+==2264442== 
+Thread 0 processed 17 words and failed 0 words in 25.37 seconds
+Thread 1 processed 17 words and failed 1 words in 23.65 seconds
+Thread 2 processed 16 words and failed 2 words in 26.60 seconds
+Total DES: 1
+Total NT: 1
+Total MD5: 1
+Total SHA256: 0
+Total SHA512: 2
+Total YESCRYPT: 3
+Total GOST_YESCRYPT: 0
+Total BCRYPT: 2
+Total: 10
+Failed: 1
+==2264442== 
+==2264442== HEAP SUMMARY:
+==2264442==     in use at exit: 0 bytes in 0 blocks
+==2264442==   total heap usage: 176 allocs, 176 frees, 33,178 bytes allocated
+==2264442== 
+==2264442== All heap blocks were freed -- no leaks are possible
+==2264442== 
+==2264442== For lists of detected and suppressed errors, rerun with: -s
+==2264442== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

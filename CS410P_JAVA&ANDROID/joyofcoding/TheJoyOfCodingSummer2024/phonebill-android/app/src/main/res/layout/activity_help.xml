@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".helpActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="384dp"
+        android:layout_height="582dp"
+        android:layout_weight="1"
+        android:text="Small Phone Bill Application\n\nDaniel Huynh\nProfessor Whitlock\nProject 5\nAugust 7th, 2024\n\n\nThis Program is an android app that allows users to create and store PhoneCall objects into Phonebills using an android emulator.\n\nNavigate the homescreen to add / display calls.\n\n**Phonecalls have a special format that need to be followed**\n\nCaller: Callers must be 10 digit numbers with no special characters, please include dashes in the input.\n\nCallee: Calle's must also be 10 digit numbers including dashes with no special characters.\n\nBegin Date: The format for the date must be numbers only, do not spell out months. Years will always have to be 4 digit numbers.\n\nBegin Time: The Time format will be a 12 hour clock using AM/PM.\n\nEnd Dates and Times will follow the same format.\n\nExample:&quot;555-555-5555&quot; &quot;444-444-4444&quot; 3/2/2024 12:00 PM 3/2/24 1:00 PM"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        tools:layout_editor_absoluteX="10dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="87dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="serif-monospace"
+        android:text="@string/helpActivity"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="128dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="backtoMain"
+        android:text="@string/return_to_menu"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

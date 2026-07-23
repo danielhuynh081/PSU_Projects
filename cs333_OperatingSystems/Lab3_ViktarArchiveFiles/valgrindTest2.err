@@ -1,0 +1,14 @@
+==1746374== Memcheck, a memory error detector
+==1746374== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==1746374== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==1746374== Command: /u/dahuynh/cs333/Lab3/viktar -xc 0-s.txt 1-s.txt 2-s.txt 3-s.txt 4-s.txt 5-s.txt 6-s.txt -f valgrindTest2.viktar
+==1746374== 
+==1746374== 
+==1746374== HEAP SUMMARY:
+==1746374==     in use at exit: 0 bytes in 0 blocks
+==1746374==   total heap usage: 1 allocs, 1 frees, 1,024 bytes allocated
+==1746374== 
+==1746374== All heap blocks were freed -- no leaks are possible
+==1746374== 
+==1746374== For lists of detected and suppressed errors, rerun with: -s
+==1746374== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

@@ -1,0 +1,15 @@
+# Python
+**/venv/
+__pycache__/
+*.pyc
+cs486_IntroDataBases/
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# C/C++
+*.o
+*.out
+*.exe

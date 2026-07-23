@@ -1,0 +1,12 @@
+	*** Data MD5 does not match:
+		found:   10b836d1def7c94cb116cf1fc2e8e885
+		in file: efb836d1def7c94cb116cf1fc2e8e885 for member 3-s.txt
+	*** Data MD5 does not match:
+		found:   6cfc9ca1e913567ce68fb879db88af59
+		in file: 93fc9ca1e913567ce68fb879db88af59 for member 4-s.txt
+	*** Data MD5 does not match:
+		found:   401c3d8cc30efaff9c5128004daea98e
+		in file: bf1c3d8cc30efaff9c5128004daea98e for member 5-s.txt
+	*** Data MD5 does not match:
+		found:   b6abdd25231716d6c49e5a85bae6fafb
+		in file: 49abdd25231716d6c49e5a85bae6fafb for member 6-s.txt

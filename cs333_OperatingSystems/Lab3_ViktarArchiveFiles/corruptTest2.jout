@@ -1,0 +1,12 @@
+	*** Header MD5 does not match:
+		found:   1866e5be0697a16c84300311a9d9b88f
+		in file: 5d92d854ec8d34f6912e723d01822714 for member 3-s.txt
+	*** Header MD5 does not match:
+		found:   033bfc350014fa757f8f6a1a21df442d
+		in file: b253b3637b2623ebba7b72ed2e3d4e31 for member 4-s.txt
+	*** Header MD5 does not match:
+		found:   27b495bd7d736c6f125851527d1b8ad4
+		in file: e98720d5b6709c8ca91ca36d2b741829 for member 5-s.txt
+	*** Header MD5 does not match:
+		found:   cd14211876e003485ba62130d56db646
+		in file: 89d00f32eff095d39306cf4878531a84 for member 6-s.txt

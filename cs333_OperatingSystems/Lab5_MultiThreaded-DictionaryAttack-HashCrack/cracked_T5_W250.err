@@ -1,0 +1,15 @@
+Thread 0 processed 50 words and failed 5 words in 36.25 seconds
+Thread 1 processed 50 words and failed 3 words in 24.95 seconds
+Thread 2 processed 50 words and failed 4 words in 65.85 seconds
+Thread 3 processed 50 words and failed 7 words in 26.09 seconds
+Thread 4 processed 50 words and failed 2 words in 34.51 seconds
+Total DES: 1
+Total NT: 1
+Total MD5: 1
+Total SHA256: 0
+Total SHA512: 2
+Total YESCRYPT: 3
+Total GOST_YESCRYPT: 0
+Total BCRYPT: 2
+Total: 10
+Failed: 1
